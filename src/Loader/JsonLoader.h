@@ -11,7 +11,7 @@ public:
     ~JsonLoader();
     void clear();
     bool load(std::string _base, std::ostream &derr);
-    const std::vector<nlohmann::json> &json();
+    const nlohmann::json &json();
 private:
-    std::vector<nlohmann::json> m_json;
+    nlohmann::json m_json;
 };

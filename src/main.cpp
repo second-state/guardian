@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     
     CLI11_PARSE(app, argc, argv);
 
-    Checker checker(jsonPath_1, contract_1, jsonPath_2, contract_2, std::cout, std::cerr);
+    Checker checker(jsonPath_1, contract_1, jsonPath_2, contract_2, std::cout, std::cerr, false);
 
     if(checker.run()) std::cout<<"same\n";
     else std::cout<<"not same\n";

@@ -44,13 +44,13 @@ bool JsonLoader::load(std::string _base, std::ostream &derr)
 
             nlohmann::json json;
             json = nlohmann::json::parse(json_str.begin(), json_str.end());
-            m_json.emplace_back(json);
+            m_json[json.begin().key()] = json.begin().value();
         }
     });
     return true;
 }
 
-const std::vector<nlohmann::json> &JsonLoader::json()
+const nlohmann::json &JsonLoader::json()
 {
     return m_json;
 }
