@@ -4,6 +4,7 @@
 
 #include <ostream>
 #include <string>
+#include <set>
 
 class Checker
 {
@@ -26,6 +27,8 @@ private:
     JsonLoader m_jsonLoder_1, m_jsonLoder_2;
     std::string m_contract_1, m_contract_2;
     bool compareOnlyStorageSize;
+
+    std::set<std::string> checkingStructs;
 
     std::ostream &m_stdout;
     std::ostream &m_stderr;
