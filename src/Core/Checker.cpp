@@ -57,12 +57,12 @@ bool Checker::checkContarct(const nlohmann::json &r1, const nlohmann::json &r2){
     size_t NumberstateVariables = SVr1.size();
     bool allSame = true;
     if(NumberstateVariables > SVr2.size()){
-        derr() << "[!different] Number of stateVariables are different. More parts will not be compared.\n";
-        derr() << ">>>First contract:\n";
-        derr() << "   Number of stateVariables is" << NumberstateVariables << '\n';
+        derr() << "[!different] Number of stateVariables in base contract is more then new one. More parts will not be compared.\n";
+        derr() << ">>>base contract:\n";
+        derr() << "   Number of stateVariables is " << NumberstateVariables << '\n';
         derr() << "===\n";
-        derr() << "   Number of stateVariables is" << SVr2.size() << '\n';
-        dout() << "<<<Second contract\n\n";
+        derr() << "   Number of stateVariables is " << SVr2.size() << '\n';
+        dout() << "<<<new contract\n\n";
         allSame = false;
         NumberstateVariables = SVr2.size();
     }
@@ -88,7 +88,7 @@ bool Checker::checkStateVariable(const nlohmann::json &r1, const nlohmann::json 
         auto sourcePartPair_1 = split2(sourcePart_1);
         auto sourcePartPair_2 = split2(sourcePart_2);
         derr() << deepStr << "Type different:\n";
-        derr() << deepStr << ">>>First contract:\n";
+        derr() << deepStr << ">>>base contract:\n";
         derr() << deepStr << "   Type of stateVariable is \"" << type_1 << "\""  << '\n';
         derr() << deepStr << sourcePartPair_1.first << '\n';
         derr() << deepStr << sourcePartPair_1.second << '\n';
@@ -96,7 +96,7 @@ bool Checker::checkStateVariable(const nlohmann::json &r1, const nlohmann::json 
         derr() << deepStr << "   Type of stateVariable is \"" << type_2 << "\""  << '\n';
         derr() << deepStr << sourcePartPair_2.first << '\n';
         derr() << deepStr << sourcePartPair_2.second << '\n';
-        dout() << deepStr << "<<<Second contract\n";
+        dout() << deepStr << "<<<new contract\n";
         return false;
     }
     bool isSame = true;
@@ -108,7 +108,7 @@ bool Checker::checkStateVariable(const nlohmann::json &r1, const nlohmann::json 
         auto sourcePartPair_1 = split2(sourcePart_1);
         auto sourcePartPair_2 = split2(sourcePart_2);
         derr() << deepStr << "[" << type_1 << "]" << " Name different:\n";
-        derr() << deepStr << ">>>First contract:\n";
+        derr() << deepStr << ">>>base contract:\n";
         derr() << deepStr << "   Name of stateVariable is \"" << r1["name"].get<std::string>() << "\"" << '\n';
         derr() << deepStr << sourcePartPair_1.first << '\n';
         derr() << deepStr << sourcePartPair_1.second << '\n';
@@ -116,7 +116,7 @@ bool Checker::checkStateVariable(const nlohmann::json &r1, const nlohmann::json 
         derr() << deepStr << "   Name of stateVariable is \"" << r2["name"].get<std::string>() << "\"" << '\n';
         derr() << deepStr << sourcePartPair_2.first << '\n';
         derr() << deepStr << sourcePartPair_2.second << '\n';
-        dout() << deepStr << "<<<Second contract\n";
+        dout() << deepStr << "<<<new contract\n";
         isSame = false;
     }
     
@@ -150,7 +150,7 @@ bool Checker::checkArray(const nlohmann::json &r1, const nlohmann::json &r2, std
         auto sourcePartPair_1 = split2(sourcePart_1);
         auto sourcePartPair_2 = split2(sourcePart_2);
         derr() << deepStr<<"[Array] Length different:\n";
-        derr() << deepStr << ">>>First contract:\n";
+        derr() << deepStr << ">>>base contract:\n";
         derr() << deepStr << "   Length is " << r1["length"].get<std::string>() << '\n';
         derr() << deepStr << sourcePartPair_1.first << '\n';
         derr() << deepStr << sourcePartPair_1.second << '\n';
@@ -158,7 +158,7 @@ bool Checker::checkArray(const nlohmann::json &r1, const nlohmann::json &r2, std
         derr() << deepStr << "   Length is " << r2["length"].get<std::string>() << '\n';
         derr() << deepStr << sourcePartPair_2.first << '\n';
         derr() << deepStr << sourcePartPair_2.second << '\n';
-        dout() << deepStr << "<<<Second contract\n";
+        dout() << deepStr << "<<<new contract\n";
         return false;
     }
     if(!checkStateVariable(r1["baseType"], r2["baseType"], sourcePart_1, sourcePart_2, deep+1)){
@@ -174,7 +174,7 @@ bool Checker::checkStruct(const nlohmann::json &r1, const nlohmann::json &r2, st
         auto sourcePartPair_1 = split2(sourcePart_1);
         auto sourcePartPair_2 = split2(sourcePart_2);
         derr() << deepStr << "[Struct] Struct name are different:\n";
-        derr() << deepStr << ">>>First contract:\n";
+        derr() << deepStr << ">>>base contract:\n";
         derr() << deepStr << "   Struct name is \"" << r1["structName"] << "\"" << '\n';
         derr() << deepStr << sourcePartPair_1.first << '\n';
         derr() << deepStr << sourcePartPair_1.second << '\n';
@@ -182,7 +182,7 @@ bool Checker::checkStruct(const nlohmann::json &r1, const nlohmann::json &r2, st
         derr() << deepStr << "   Struct name is \"" << r2["structName"] << "\"" << '\n';
         derr() << deepStr << sourcePartPair_2.first << '\n';
         derr() << deepStr << sourcePartPair_2.second << '\n';
-        dout() << deepStr << "<<<Second contract\n";
+        dout() << deepStr << "<<<new contract\n";
         isSame = false;
     }
     std::string structLocation1 = r1["structLocation"].get<std::string>();
@@ -197,7 +197,7 @@ bool Checker::checkStruct(const nlohmann::json &r1, const nlohmann::json &r2, st
             auto sourcePartPair_1 = split2(sourcePart_1);
             auto sourcePartPair_2 = split2(sourcePart_2);
             derr() << deepStr << "[Struct] Different but already compared abrove.\n";
-            derr() << deepStr << ">>>First contract:\n";
+            derr() << deepStr << ">>>base contract:\n";
             derr() << deepStr << "   Struct name is \"" << structLocation1+":"+structName1 << "\"" << '\n';
             derr() << deepStr << sourcePartPair_1.first << '\n';
             derr() << deepStr << sourcePartPair_1.second << '\n';
@@ -205,7 +205,7 @@ bool Checker::checkStruct(const nlohmann::json &r1, const nlohmann::json &r2, st
             derr() << deepStr << "   Struct name is \"" << structLocation2+":"+structName2 << "\"" << '\n';
             derr() << deepStr << sourcePartPair_2.first << '\n';
             derr() << deepStr << sourcePartPair_2.second << '\n';
-            dout() << deepStr << "<<<Second contract\n";
+            dout() << deepStr << "<<<new contract\n";
             return false;
         }
         return true;
@@ -215,11 +215,11 @@ bool Checker::checkStruct(const nlohmann::json &r1, const nlohmann::json &r2, st
     size_t NumberstateVariables = s1.size();
     if(NumberstateVariables != s2.size()){
         derr() << deepStr << "[Struct] Number of variables are different.\n";
-        derr() << deepStr << ">>>First contract:\n";
-        derr() << deepStr << "   Number of variables is" << NumberstateVariables << '\n';
+        derr() << deepStr << ">>>base contract:\n";
+        derr() << deepStr << "   Number of variables is " << NumberstateVariables << '\n';
         derr() << deepStr << "===\n";
-        derr() << deepStr << "   Number of variables is" << s2.size() << '\n';
-        dout() << deepStr << "<<<Second contract\n";
+        derr() << deepStr << "   Number of variables is " << s2.size() << '\n';
+        dout() << deepStr << "<<<new contract\n";
         return false;
     }
     for(size_t i=0; i<NumberstateVariables; ++i){

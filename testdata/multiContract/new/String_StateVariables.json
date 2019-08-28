@@ -1,0 +1,123 @@
+{
+	"A.so:String" : 
+	{
+		"stateVariables" : 
+		[
+			{
+				"baseType" : 
+				{
+					"baseType" : 
+					{
+						"baseType" : 
+						{
+							"baseType" : 
+							{
+								"type" : "int256"
+							},
+							"type" : "array"
+						},
+						"length" : "301677",
+						"type" : "array"
+					},
+					"type" : "array"
+				},
+				"declarate" : "A.so:String",
+				"length" : "7122",
+				"name" : "a",
+				"sourceInfo" : "   Source: \"int[][7122+5*gggg][][7122] public a\"\n   at file: A.so, Line: 5, Col: 2\n",
+				"type" : "array"
+			},
+			{
+				"declarate" : "A.so:String",
+				"name" : "b",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: A.so, Line: 6, Col: 2\n",
+				"type" : "int256"
+			},
+			{
+				"declarate" : "A.so:String",
+				"name" : "c",
+				"sourceInfo" : "   Source: \"int c\"\n   at file: A.so, Line: 7, Col: 2\n",
+				"type" : "int256"
+			},
+			{
+				"declarate" : "A.so:String",
+				"name" : "p",
+				"sourceInfo" : "   Source: \"PPP p\"\n   at file: A.so, Line: 12, Col: 2\n",
+				"structLocation" : "A.so:String",
+				"structName" : "PPP",
+				"type" : "struct"
+			},
+			{
+				"declarate" : "A.so:String",
+				"name" : "hhh",
+				"sourceInfo" : "   Source: \"L hhh\"\n   at file: A.so, Line: 14, Col: 2\n",
+				"type" : "enum_3"
+			},
+			{
+				"contractLocation" : "A.so:AA",
+				"declarate" : "A.so:String",
+				"name" : "jhj",
+				"sourceInfo" : "   Source: \"AA jhj\"\n   at file: A.so, Line: 15, Col: 2\n",
+				"type" : "contract"
+			}
+		],
+		"structDefination" : 
+		{
+			"PPP" : 
+			{
+				"sourceInfo" : "   Source: \"struct PPP{\\r\\n\\t\\tstring asdf;\\r\\n\\t\\tmapping(address=>mapping(int=>string[7123][])) [][7122][] ggg;\\r\\n\\t}\"\n   at file: A.so, Line: 8, Col: 2\n",
+				"variables" : 
+				[
+					{
+						"name" : "asdf",
+						"sourceInfo" : "   Source: \"string asdf\"\n   at file: A.so, Line: 9, Col: 3\n",
+						"type" : "string"
+					},
+					{
+						"baseType" : 
+						{
+							"baseType" : 
+							{
+								"baseType" : 
+								{
+									"key" : 
+									{
+										"type" : "address"
+									},
+									"type" : "mapping",
+									"value" : 
+									{
+										"key" : 
+										{
+											"type" : "int256"
+										},
+										"type" : "mapping",
+										"value" : 
+										{
+											"baseType" : 
+											{
+												"baseType" : 
+												{
+													"type" : "string"
+												},
+												"length" : "7123",
+												"type" : "array"
+											},
+											"type" : "array"
+										}
+									}
+								},
+								"type" : "array"
+							},
+							"length" : "7122",
+							"type" : "array"
+						},
+						"name" : "ggg",
+						"sourceInfo" : "   Source: \"mapping(address=>mapping(int=>string[7123][])) [][7122][] ggg\"\n   at file: A.so, Line: 10, Col: 3\n",
+						"type" : "array"
+					}
+				]
+			}
+		}
+	}
+}

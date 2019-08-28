@@ -1,0 +1,39 @@
+{
+	"base.so:baseContract" : 
+	{
+		"stateVariables" : 
+		[
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "a",
+				"sourceInfo" : "   Source: \"int a\"\n   at file: base.so, Line: 2, Col: 2\n",
+				"type" : "int256"
+			},
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "b",
+				"sourceInfo" : "   Source: \"string b\"\n   at file: base.so, Line: 3, Col: 2\n",
+				"type" : "string"
+			},
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "c",
+				"sourceInfo" : "   Source: \"int32 c\"\n   at file: base.so, Line: 4, Col: 2\n",
+				"type" : "int32"
+			},
+			{
+				"contractLocation" : "base.so:baseContract",
+				"declarate" : "base.so:baseContract",
+				"name" : "d",
+				"sourceInfo" : "   Source: \"baseContract d\"\n   at file: base.so, Line: 7, Col: 2\n",
+				"type" : "contract"
+			},
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "e",
+				"sourceInfo" : "   Source: \"L e\"\n   at file: base.so, Line: 9, Col: 2\n",
+				"type" : "enum_3"
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"base.so:baseContract" : 
+	{
+		"stateVariables" : 
+		[
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "X",
+				"sourceInfo" : "   Source: \"Sample1 X\"\n   at file: base.so, Line: 5, Col: 2\n",
+				"structLocation" : "base.so:baseContract",
+				"structName" : "Sample1",
+				"type" : "struct"
+			},
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "Y",
+				"sourceInfo" : "   Source: \"Sample2 Y\"\n   at file: base.so, Line: 11, Col: 2\n",
+				"structLocation" : "base.so:baseContract",
+				"structName" : "Sample2",
+				"type" : "struct"
+			},
+			{
+				"declarate" : "base.so:baseContract",
+				"name" : "SAME",
+				"sourceInfo" : "   Source: \"Sample1 SAME\"\n   at file: base.so, Line: 14, Col: 2\n",
+				"structLocation" : "base.so:baseContract",
+				"structName" : "Sample1",
+				"type" : "struct"
+			}
+		],
+		"structDefination" : 
+		{
+			"Sample1" : 
+			{
+				"sourceInfo" : "   Source: \"struct Sample1{\\r\\n\\t\\tint aaa;\\r\\n\\t}\"\n   at file: base.so, Line: 2, Col: 2\n",
+				"variables" : 
+				[
+					{
+						"name" : "aaa",
+						"sourceInfo" : "   Source: \"int aaa\"\n   at file: base.so, Line: 3, Col: 3\n",
+						"type" : "int256"
+					}
+				]
+			},
+			"Sample2" : 
+			{
+				"sourceInfo" : "   Source: \"struct Sample2{\\r\\n\\t\\tint aaa;\\r\\n\\t\\tint bbb;\\r\\n\\t\\tint ccc;\\r\\n\\t}\"\n   at file: base.so, Line: 6, Col: 2\n",
+				"variables" : 
+				[
+					{
+						"name" : "aaa",
+						"sourceInfo" : "   Source: \"int aaa\"\n   at file: base.so, Line: 7, Col: 3\n",
+						"type" : "int256"
+					},
+					{
+						"name" : "bbb",
+						"sourceInfo" : "   Source: \"int bbb\"\n   at file: base.so, Line: 8, Col: 3\n",
+						"type" : "int256"
+					},
+					{
+						"name" : "ccc",
+						"sourceInfo" : "   Source: \"int ccc\"\n   at file: base.so, Line: 9, Col: 3\n",
+						"type" : "int256"
+					}
+				]
+			}
+		}
+	}
+}

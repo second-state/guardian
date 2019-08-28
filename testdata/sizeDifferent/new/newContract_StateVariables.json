@@ -1,0 +1,26 @@
+{
+	"new.so:newContract" : 
+	{
+		"stateVariables" : 
+		[
+			{
+				"declarate" : "new.so:newContract",
+				"name" : "a",
+				"sourceInfo" : "   Source: \"int a\"\n   at file: new.so, Line: 2, Col: 2\n",
+				"type" : "int256"
+			},
+			{
+				"declarate" : "new.so:newContract",
+				"name" : "b",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: new.so, Line: 3, Col: 2\n",
+				"type" : "int256"
+			},
+			{
+				"declarate" : "new.so:newContract",
+				"name" : "c",
+				"sourceInfo" : "   Source: \"int c\"\n   at file: new.so, Line: 6, Col: 2\n",
+				"type" : "int256"
+			}
+		]
+	}
+}

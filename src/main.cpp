@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[])
 {
-    CLI::App app{"This tool can check two state-varables json output from lity is different or not."};
+    CLI::App app{"This tool can check two state-varables json output from lity have conflict or not."};
 
     std::string jsonPath_1, jsonPath_2;
     std::string contract_1, contract_2;
@@ -27,8 +27,8 @@ int main(int argc, char *argv[])
 
     Checker checker(jsonPath_1, contract_1, jsonPath_2, contract_2, std::cout, std::cerr, compareTypeOnly, compareDetail);
 
-    if(checker.run()) std::cout<<"same\n";
-    else std::cout<<"not same\n";
+    if(checker.run()) std::cout<<"Accept! New contract has no state-variable conflict with base contract.\n";
+    else std::cout<<"Sorry, there are some conflict between base contract and new contract.\n";
     
     return 0;
 }
