@@ -1,5 +1,5 @@
 //pragma solidity ^0.4.24;
-import "A.so" as SS;
+import "A.sol" as SS;
 contract newContract is SS.String,SS.AA{
 	string GG;
 	struct P{

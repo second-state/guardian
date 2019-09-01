@@ -1,30 +1,30 @@
 {
-	"base.so:baseContract" : 
+	"base.sol:baseContract" : 
 	{
 		"stateVariables" : 
 		[
 			{
-				"declarate" : "base.so:baseContract",
+				"declarate" : "base.sol:baseContract",
 				"name" : "a",
-				"sourceInfo" : "   Source: \"int a\"\n   at file: base.so, Line: 2, Col: 2\n",
+				"sourceInfo" : "   Source: \"int a\"\n   at file: base.sol, Line: 2, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "base.so:baseContract",
+				"declarate" : "base.sol:baseContract",
 				"name" : "b",
-				"sourceInfo" : "   Source: \"int b\"\n   at file: base.so, Line: 3, Col: 2\n",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: base.sol, Line: 3, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "base.so:baseContract",
+				"declarate" : "base.sol:baseContract",
 				"name" : "c",
-				"sourceInfo" : "   Source: \"int c\"\n   at file: base.so, Line: 4, Col: 2\n",
+				"sourceInfo" : "   Source: \"int c\"\n   at file: base.sol, Line: 4, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "base.so:baseContract",
+				"declarate" : "base.sol:baseContract",
 				"name" : "d",
-				"sourceInfo" : "   Source: \"int d\"\n   at file: base.so, Line: 5, Col: 2\n",
+				"sourceInfo" : "   Source: \"int d\"\n   at file: base.sol, Line: 5, Col: 2\n",
 				"type" : "int256"
 			}
 		]

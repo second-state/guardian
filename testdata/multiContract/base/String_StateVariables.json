@@ -1,5 +1,5 @@
 {
-	"A.so:String" : 
+	"A.sol:String" : 
 	{
 		"stateVariables" : 
 		[
@@ -21,42 +21,42 @@
 					},
 					"type" : "array"
 				},
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"length" : "7122",
 				"name" : "a",
-				"sourceInfo" : "   Source: \"int[][7122+5*gggg][][7122] public a\"\n   at file: A.so, Line: 5, Col: 2\n",
+				"sourceInfo" : "   Source: \"int[][7122+5*gggg][][7122] public a\"\n   at file: A.sol, Line: 5, Col: 2\n",
 				"type" : "array"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "b",
-				"sourceInfo" : "   Source: \"int b\"\n   at file: A.so, Line: 6, Col: 2\n",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: A.sol, Line: 6, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "c",
-				"sourceInfo" : "   Source: \"int c\"\n   at file: A.so, Line: 7, Col: 2\n",
+				"sourceInfo" : "   Source: \"int c\"\n   at file: A.sol, Line: 7, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "p",
-				"sourceInfo" : "   Source: \"PPP p\"\n   at file: A.so, Line: 12, Col: 2\n",
-				"structLocation" : "A.so:String",
+				"sourceInfo" : "   Source: \"PPP p\"\n   at file: A.sol, Line: 12, Col: 2\n",
+				"structLocation" : "A.sol:String",
 				"structName" : "PPP",
 				"type" : "struct"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "hhh",
-				"sourceInfo" : "   Source: \"L hhh\"\n   at file: A.so, Line: 14, Col: 2\n",
+				"sourceInfo" : "   Source: \"L hhh\"\n   at file: A.sol, Line: 14, Col: 2\n",
 				"type" : "enum_3"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "jhj",
-				"sourceInfo" : "   Source: \"int jhj\"\n   at file: A.so, Line: 15, Col: 2\n",
+				"sourceInfo" : "   Source: \"int jhj\"\n   at file: A.sol, Line: 15, Col: 2\n",
 				"type" : "int256"
 			}
 		],
@@ -64,12 +64,12 @@
 		{
 			"PPP" : 
 			{
-				"sourceInfo" : "   Source: \"struct PPP{\\r\\n\\t\\tstring asdf;\\r\\n\\t\\tmapping(address=>mapping(int=>PPP[7123][])) [][7122][] ggg;\\r\\n\\t}\"\n   at file: A.so, Line: 8, Col: 2\n",
+				"sourceInfo" : "   Source: \"struct PPP{\\r\\n\\t\\tstring asdf;\\r\\n\\t\\tmapping(address=>mapping(int=>PPP[7123][])) [][7122][] ggg;\\r\\n\\t}\"\n   at file: A.sol, Line: 8, Col: 2\n",
 				"variables" : 
 				[
 					{
 						"name" : "asdf",
-						"sourceInfo" : "   Source: \"string asdf\"\n   at file: A.so, Line: 9, Col: 3\n",
+						"sourceInfo" : "   Source: \"string asdf\"\n   at file: A.sol, Line: 9, Col: 3\n",
 						"type" : "string"
 					},
 					{
@@ -97,7 +97,7 @@
 											{
 												"baseType" : 
 												{
-													"structLocation" : "A.so:String",
+													"structLocation" : "A.sol:String",
 													"structName" : "PPP",
 													"type" : "struct"
 												},
@@ -114,7 +114,7 @@
 							"type" : "array"
 						},
 						"name" : "ggg",
-						"sourceInfo" : "   Source: \"mapping(address=>mapping(int=>PPP[7123][])) [][7122][] ggg\"\n   at file: A.so, Line: 10, Col: 3\n",
+						"sourceInfo" : "   Source: \"mapping(address=>mapping(int=>PPP[7123][])) [][7122][] ggg\"\n   at file: A.sol, Line: 10, Col: 3\n",
 						"type" : "array"
 					}
 				]

@@ -1,30 +1,30 @@
 {
-	"new.so:newContract" : 
+	"new.sol:newContract" : 
 	{
 		"stateVariables" : 
 		[
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "x1",
-				"sourceInfo" : "   Source: \"int x1\"\n   at file: new.so, Line: 2, Col: 2\n",
+				"sourceInfo" : "   Source: \"int x1\"\n   at file: new.sol, Line: 2, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "x2",
-				"sourceInfo" : "   Source: \"int x2\"\n   at file: new.so, Line: 3, Col: 2\n",
+				"sourceInfo" : "   Source: \"int x2\"\n   at file: new.sol, Line: 3, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "x3",
-				"sourceInfo" : "   Source: \"int x3\"\n   at file: new.so, Line: 6, Col: 2\n",
+				"sourceInfo" : "   Source: \"int x3\"\n   at file: new.sol, Line: 6, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "x4",
-				"sourceInfo" : "   Source: \"int x4\"\n   at file: new.so, Line: 7, Col: 2\n",
+				"sourceInfo" : "   Source: \"int x4\"\n   at file: new.sol, Line: 7, Col: 2\n",
 				"type" : "int256"
 			}
 		]

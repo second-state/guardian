@@ -1,37 +1,37 @@
 {
-	"new.so:newContract" : 
+	"new.sol:newContract" : 
 	{
 		"stateVariables" : 
 		[
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "a",
-				"sourceInfo" : "   Source: \"string a\"\n   at file: new.so, Line: 2, Col: 2\n",
+				"sourceInfo" : "   Source: \"string a\"\n   at file: new.sol, Line: 2, Col: 2\n",
 				"type" : "string"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "b",
-				"sourceInfo" : "   Source: \"int b\"\n   at file: new.so, Line: 3, Col: 2\n",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: new.sol, Line: 3, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "c",
-				"sourceInfo" : "   Source: \"int64 c\"\n   at file: new.so, Line: 4, Col: 2\n",
+				"sourceInfo" : "   Source: \"int64 c\"\n   at file: new.sol, Line: 4, Col: 2\n",
 				"type" : "int64"
 			},
 			{
-				"contractLocation" : "new.so:newContract",
-				"declarate" : "new.so:newContract",
+				"contractLocation" : "new.sol:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "d",
-				"sourceInfo" : "   Source: \"newContract d\"\n   at file: new.so, Line: 7, Col: 2\n",
+				"sourceInfo" : "   Source: \"newContract d\"\n   at file: new.sol, Line: 7, Col: 2\n",
 				"type" : "contract"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "e",
-				"sourceInfo" : "   Source: \"L e\"\n   at file: new.so, Line: 9, Col: 2\n",
+				"sourceInfo" : "   Source: \"L e\"\n   at file: new.sol, Line: 9, Col: 2\n",
 				"type" : "enum_5"
 			}
 		]

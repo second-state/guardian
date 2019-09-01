@@ -1,29 +1,29 @@
 {
-	"new.so:newContract" : 
+	"new.sol:newContract" : 
 	{
 		"stateVariables" : 
 		[
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "a",
-				"sourceInfo" : "   Source: \"Sample1 a\"\n   at file: new.so, Line: 9, Col: 2\n",
-				"structLocation" : "new.so:newContract",
+				"sourceInfo" : "   Source: \"Sample1 a\"\n   at file: new.sol, Line: 9, Col: 2\n",
+				"structLocation" : "new.sol:newContract",
 				"structName" : "Sample1",
 				"type" : "struct"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "b",
-				"sourceInfo" : "   Source: \"Sample2 b\"\n   at file: new.so, Line: 10, Col: 2\n",
-				"structLocation" : "new.so:newContract",
+				"sourceInfo" : "   Source: \"Sample2 b\"\n   at file: new.sol, Line: 10, Col: 2\n",
+				"structLocation" : "new.sol:newContract",
 				"structName" : "Sample2",
 				"type" : "struct"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "same",
-				"sourceInfo" : "   Source: \"Sample1 same\"\n   at file: new.so, Line: 11, Col: 2\n",
-				"structLocation" : "new.so:newContract",
+				"sourceInfo" : "   Source: \"Sample1 same\"\n   at file: new.sol, Line: 11, Col: 2\n",
+				"structLocation" : "new.sol:newContract",
 				"structName" : "Sample1",
 				"type" : "struct"
 			}
@@ -32,29 +32,29 @@
 		{
 			"Sample1" : 
 			{
-				"sourceInfo" : "   Source: \"struct Sample1{\\r\\n\\t\\tstring aaa;\\r\\n\\t}\"\n   at file: new.so, Line: 2, Col: 2\n",
+				"sourceInfo" : "   Source: \"struct Sample1{\\r\\n\\t\\tstring aaa;\\r\\n\\t}\"\n   at file: new.sol, Line: 2, Col: 2\n",
 				"variables" : 
 				[
 					{
 						"name" : "aaa",
-						"sourceInfo" : "   Source: \"string aaa\"\n   at file: new.so, Line: 3, Col: 3\n",
+						"sourceInfo" : "   Source: \"string aaa\"\n   at file: new.sol, Line: 3, Col: 3\n",
 						"type" : "string"
 					}
 				]
 			},
 			"Sample2" : 
 			{
-				"sourceInfo" : "   Source: \"struct Sample2{\\r\\n\\t\\tint aaa;\\r\\n\\t\\tint ccc;\\r\\n\\t}\"\n   at file: new.so, Line: 5, Col: 2\n",
+				"sourceInfo" : "   Source: \"struct Sample2{\\r\\n\\t\\tint aaa;\\r\\n\\t\\tint ccc;\\r\\n\\t}\"\n   at file: new.sol, Line: 5, Col: 2\n",
 				"variables" : 
 				[
 					{
 						"name" : "aaa",
-						"sourceInfo" : "   Source: \"int aaa\"\n   at file: new.so, Line: 6, Col: 3\n",
+						"sourceInfo" : "   Source: \"int aaa\"\n   at file: new.sol, Line: 6, Col: 3\n",
 						"type" : "int256"
 					},
 					{
 						"name" : "ccc",
-						"sourceInfo" : "   Source: \"int ccc\"\n   at file: new.so, Line: 7, Col: 3\n",
+						"sourceInfo" : "   Source: \"int ccc\"\n   at file: new.sol, Line: 7, Col: 3\n",
 						"type" : "int256"
 					}
 				]

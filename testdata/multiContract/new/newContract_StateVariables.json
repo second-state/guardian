@@ -1,5 +1,5 @@
 {
-	"new.so:newContract" : 
+	"new.sol:newContract" : 
 	{
 		"stateVariables" : 
 		[
@@ -21,55 +21,55 @@
 					},
 					"type" : "array"
 				},
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"length" : "7122",
 				"name" : "a",
-				"sourceInfo" : "   Source: \"int[][7122+5*gggg][][7122] public a\"\n   at file: A.so, Line: 5, Col: 2\n",
+				"sourceInfo" : "   Source: \"int[][7122+5*gggg][][7122] public a\"\n   at file: A.sol, Line: 5, Col: 2\n",
 				"type" : "array"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "b",
-				"sourceInfo" : "   Source: \"int b\"\n   at file: A.so, Line: 6, Col: 2\n",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: A.sol, Line: 6, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "c",
-				"sourceInfo" : "   Source: \"int c\"\n   at file: A.so, Line: 7, Col: 2\n",
+				"sourceInfo" : "   Source: \"int c\"\n   at file: A.sol, Line: 7, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "p",
-				"sourceInfo" : "   Source: \"PPP p\"\n   at file: A.so, Line: 12, Col: 2\n",
-				"structLocation" : "A.so:String",
+				"sourceInfo" : "   Source: \"PPP p\"\n   at file: A.sol, Line: 12, Col: 2\n",
+				"structLocation" : "A.sol:String",
 				"structName" : "PPP",
 				"type" : "struct"
 			},
 			{
-				"declarate" : "A.so:String",
+				"declarate" : "A.sol:String",
 				"name" : "hhh",
-				"sourceInfo" : "   Source: \"L hhh\"\n   at file: A.so, Line: 14, Col: 2\n",
+				"sourceInfo" : "   Source: \"L hhh\"\n   at file: A.sol, Line: 14, Col: 2\n",
 				"type" : "enum_3"
 			},
 			{
-				"contractLocation" : "A.so:AA",
-				"declarate" : "A.so:String",
+				"contractLocation" : "A.sol:AA",
+				"declarate" : "A.sol:String",
 				"name" : "jhj",
-				"sourceInfo" : "   Source: \"AA jhj\"\n   at file: A.so, Line: 15, Col: 2\n",
+				"sourceInfo" : "   Source: \"AA jhj\"\n   at file: A.sol, Line: 15, Col: 2\n",
 				"type" : "contract"
 			},
 			{
-				"declarate" : "A.so:AA",
+				"declarate" : "A.sol:AA",
 				"name" : "a",
-				"sourceInfo" : "   Source: \"int a\"\n   at file: A.so, Line: 21, Col: 2\n",
+				"sourceInfo" : "   Source: \"int a\"\n   at file: A.sol, Line: 21, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "A.so:AA",
+				"declarate" : "A.sol:AA",
 				"name" : "b",
-				"sourceInfo" : "   Source: \"int b\"\n   at file: A.so, Line: 22, Col: 2\n",
+				"sourceInfo" : "   Source: \"int b\"\n   at file: A.sol, Line: 22, Col: 2\n",
 				"type" : "int256"
 			},
 			{
@@ -89,26 +89,26 @@
 						"type" : "mapping",
 						"value" : 
 						{
-							"structLocation" : "A.so:String",
+							"structLocation" : "A.sol:String",
 							"structName" : "PPP",
 							"type" : "struct"
 						}
 					}
 				},
-				"declarate" : "A.so:AA",
+				"declarate" : "A.sol:AA",
 				"length" : "22",
 				"name" : "GGG",
-				"sourceInfo" : "   Source: \"mapping(address=>mapping(int=>PPP)) [22]GGG\"\n   at file: A.so, Line: 23, Col: 2\n",
+				"sourceInfo" : "   Source: \"mapping(address=>mapping(int=>PPP)) [22]GGG\"\n   at file: A.sol, Line: 23, Col: 2\n",
 				"type" : "array"
 			},
 			{
-				"declarate" : "A.so:AA",
+				"declarate" : "A.sol:AA",
 				"key" : 
 				{
 					"type" : "int256"
 				},
 				"name" : "LLLL",
-				"sourceInfo" : "   Source: \"mapping(int=>L) LLLL\"\n   at file: A.so, Line: 24, Col: 2\n",
+				"sourceInfo" : "   Source: \"mapping(int=>L) LLLL\"\n   at file: A.sol, Line: 24, Col: 2\n",
 				"type" : "mapping",
 				"value" : 
 				{
@@ -116,74 +116,74 @@
 				}
 			},
 			{
-				"declarate" : "A.so:AA",
+				"declarate" : "A.sol:AA",
 				"name" : "p",
-				"sourceInfo" : "   Source: \"asdf p\"\n   at file: A.so, Line: 29, Col: 2\n",
-				"structLocation" : "A.so:AA",
+				"sourceInfo" : "   Source: \"asdf p\"\n   at file: A.sol, Line: 29, Col: 2\n",
+				"structLocation" : "A.sol:AA",
 				"structName" : "asdf",
 				"type" : "struct"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "GG",
-				"sourceInfo" : "   Source: \"string GG\"\n   at file: new.so, Line: 4, Col: 2\n",
+				"sourceInfo" : "   Source: \"string GG\"\n   at file: new.sol, Line: 4, Col: 2\n",
 				"type" : "string"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "c",
-				"sourceInfo" : "   Source: \"P c\"\n   at file: new.so, Line: 8, Col: 2\n",
-				"structLocation" : "new.so:newContract",
+				"sourceInfo" : "   Source: \"P c\"\n   at file: new.sol, Line: 8, Col: 2\n",
+				"structLocation" : "new.sol:newContract",
 				"structName" : "P",
 				"type" : "struct"
 			},
 			{
-				"contractLocation" : "A.so:String",
-				"declarate" : "new.so:newContract",
+				"contractLocation" : "A.sol:String",
+				"declarate" : "new.sol:newContract",
 				"name" : "sss",
-				"sourceInfo" : "   Source: \"SS.String sss\"\n   at file: new.so, Line: 9, Col: 2\n",
+				"sourceInfo" : "   Source: \"SS.String sss\"\n   at file: new.sol, Line: 9, Col: 2\n",
 				"type" : "contract"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "bb",
-				"sourceInfo" : "   Source: \"bytes5 bb\"\n   at file: new.so, Line: 10, Col: 2\n",
+				"sourceInfo" : "   Source: \"bytes5 bb\"\n   at file: new.sol, Line: 10, Col: 2\n",
 				"type" : "bytes5"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "bs",
-				"sourceInfo" : "   Source: \"bytes bs\"\n   at file: new.so, Line: 11, Col: 2\n",
+				"sourceInfo" : "   Source: \"bytes bs\"\n   at file: new.sol, Line: 11, Col: 2\n",
 				"type" : "bytes"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "choice",
-				"sourceInfo" : "   Source: \"ActionChoices choice\"\n   at file: new.so, Line: 13, Col: 5\n",
+				"sourceInfo" : "   Source: \"ActionChoices choice\"\n   at file: new.sol, Line: 13, Col: 5\n",
 				"type" : "enum_4"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "fff",
-				"sourceInfo" : "   Source: \"ufixed fff\"\n   at file: new.so, Line: 14, Col: 2\n",
+				"sourceInfo" : "   Source: \"ufixed fff\"\n   at file: new.sol, Line: 14, Col: 2\n",
 				"type" : "ufixed128x18"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "pppppp",
-				"sourceInfo" : "   Source: \"SS.AA.PPP pppppp\"\n   at file: new.so, Line: 15, Col: 2\n",
-				"structLocation" : "A.so:String",
+				"sourceInfo" : "   Source: \"SS.AA.PPP pppppp\"\n   at file: new.sol, Line: 15, Col: 2\n",
+				"structLocation" : "A.sol:String",
 				"structName" : "PPP",
 				"type" : "struct"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"key" : 
 				{
 					"type" : "address"
 				},
 				"name" : "balances",
-				"sourceInfo" : "   Source: \"mapping(address => uint) public balances\"\n   at file: new.so, Line: 16, Col: 2\n",
+				"sourceInfo" : "   Source: \"mapping(address => uint) public balances\"\n   at file: new.sol, Line: 16, Col: 2\n",
 				"type" : "mapping",
 				"value" : 
 				{
@@ -191,22 +191,22 @@
 				}
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "XXXXXXX",
-				"sourceInfo" : "   Source: \"int XXXXXXX\"\n   at file: new.so, Line: 17, Col: 2\n",
+				"sourceInfo" : "   Source: \"int XXXXXXX\"\n   at file: new.sol, Line: 17, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"declarate" : "new.so:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "YYYYYYY",
-				"sourceInfo" : "   Source: \"int YYYYYYY\"\n   at file: new.so, Line: 18, Col: 2\n",
+				"sourceInfo" : "   Source: \"int YYYYYYY\"\n   at file: new.sol, Line: 18, Col: 2\n",
 				"type" : "int256"
 			},
 			{
-				"contractLocation" : "new.so:newContract",
-				"declarate" : "new.so:newContract",
+				"contractLocation" : "new.sol:newContract",
+				"declarate" : "new.sol:newContract",
 				"name" : "ccccccc",
-				"sourceInfo" : "   Source: \"newContract ccccccc\"\n   at file: new.so, Line: 19, Col: 2\n",
+				"sourceInfo" : "   Source: \"newContract ccccccc\"\n   at file: new.sol, Line: 19, Col: 2\n",
 				"type" : "contract"
 			}
 		],
@@ -214,12 +214,12 @@
 		{
 			"P" : 
 			{
-				"sourceInfo" : "   Source: \"struct P{\\r\\n\\t\\tint a;\\r\\n\\t}\"\n   at file: new.so, Line: 5, Col: 2\n",
+				"sourceInfo" : "   Source: \"struct P{\\r\\n\\t\\tint a;\\r\\n\\t}\"\n   at file: new.sol, Line: 5, Col: 2\n",
 				"variables" : 
 				[
 					{
 						"name" : "a",
-						"sourceInfo" : "   Source: \"int a\"\n   at file: new.so, Line: 6, Col: 3\n",
+						"sourceInfo" : "   Source: \"int a\"\n   at file: new.sol, Line: 6, Col: 3\n",
 						"type" : "int256"
 					}
 				]
